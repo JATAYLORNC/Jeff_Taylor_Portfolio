@@ -4,10 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Jeffrey A Taylor">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<title>Jeff Taylor | About</title>
 
@@ -15,33 +16,76 @@
 
 <body>
 
-				<h1>Jeff Taylor</h1>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
 
-					<h2>About Me</h2>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <h1 class="navbar-text">Jeff Taylor</h1>
+        </div>    
+        <ul class="nav navbar-right">
+            <li><a class="nav-link" href="index.html">About</a></li>
+            <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-					<p><img src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
-                    Jeff Taylor has most recently been a student in the Full Stack Web Development Boot Camp at the 
-                    University of North Carolina at Chapel Hill, an intensive 24-week long program dedicated to designing and 
-                    building web applications. At UNC, Jeff has developed and continues to hone his skills in HTML5, CSS3, Javascript, 
-                    JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handlebars.js, React.js, C#, and Asp.net.</p>
-					<p>Prior to that, Jeff held Senior Applications Engineering positions at both Lenovo and IBM.  For the past 
-                    3 years at Lenovo, Jeff led a global team of engineers, directing all technical procurement activities 
-                    associated with the design, development, testing, and sourcing of printed circuit boards.  At IBM, Jeff 
-                    developed and mastered a deep understanding of printed circuit boards in a career long learning process 
-                    culminating in his position as the lead subject matter expert at IBM.         
-					</p>
+    <div class="container-fluid"></div>
 
-					<h2>Connect With Me</h2>
-						<a href="https://github.com/JATAYLORNC" target="_blank"><img src="assets/images/if_github_401441.png" alt="GitHub"></a>
-						<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
-						<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+        <div class="row"> 
+
+                <div class="col-lg-7 about">  
+                    <div class="row a-head">
+                        <div class="col-lg-12">
+                            <h2 class="h2">About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row a-body">
+                        <div class="col-lg-12 text-justify">
+                            <p><img class="img-fluid float-left" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
+                            Jeff Taylor has most recently been a student in the Full Stack Web Development Boot Camp at the 
+                            University of North Carolina at Chapel Hill, an intensive 24-week long program dedicated to designing and 
+                            building web applications. At UNC, Jeff has developed and continues to hone his skills in HTML5, CSS3, Javascript, 
+                            JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handlebars.js, React.js, C#, and Asp.net.
+                            </p>
+                            
+                            <p>Prior to that, Jeff held Senior Applications Engineering positions at both Lenovo and IBM.  For the past 
+                            3 years at Lenovo, Jeff led a global team of engineers, directing all technical procurement activities 
+                            associated with the design, development, testing, and sourcing of printed circuit boards.  At IBM, Jeff 
+                            developed and mastered a deep understanding of printed circuit boards in a career long learning process 
+                            culminating in his position as the lead subject matter expert at IBM.         
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
 
-		<p>&#169 Copyright 2016 Jeff Taylor</p>
 
+
+                <div class="col-lg-5 connect">
+                    <div class="row c-head">
+                        <div class="col-lg-12">
+                            <h2 class="h2c">Connect with Me</h2>
+                        </div>
+                    </div>
+                    <div class="row c-body">
+                        <div class="col-lg-12">
+                            <a href="https://github.com/JATAYLORNC" target="_blank"><img class="rounded" src="assets/images/if_github_401441.png" alt="GitHub"></a>
+                            <a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="rounded" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
+                            <a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="rounded" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+        </div>
+
+        <div class="row text-center footer">
+            <div class="col-lg-12"><p>&#169; Copyright 2016 Jeff Taylor</p></div>
+        </div>
+
+    </div>
+                    
 </body>
 
 </html>
