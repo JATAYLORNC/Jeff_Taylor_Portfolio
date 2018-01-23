@@ -24,20 +24,21 @@ h1.navbar-text {
 	font-weight: bold;
 	align-items: center;
 	padding: 0;
-	margin: 0;
+/*	margin: 0; */
 	line-height: 90px;
+	margin-bottom: 0;
 }
 
 .navbar {
-	height: 90px;
+	height: 92px;
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
+	padding: 0 0 0 157px;
 
 }
 
 .navbar-header {
 	background-color: #4aaaa5;
-	border-bottom: 2px solid #cccccc;
 	height: 90px;
 	padding: 0 2.5rem;
 /*	margin-left: 127px; */
@@ -88,12 +89,13 @@ h1.navbar-text {
 
 .connect {
 	margin-top: 40px;
-	padding-left: 40px;
+	margin-left: 0px;
 }
 
 .a-head, .a-body, .c-head, .c-body {
 	background-color: #ffffff;
 	padding: 0 1rem;
+	margin-right: 0px;
 
 }
 
