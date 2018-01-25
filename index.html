@@ -2,12 +2,22 @@
 <html lang="en-US">
 
 <head>
+
+    <!--required meta tags-->
 	<meta charset="UTF-8">
 	<meta name="author" content="Jeffrey A Taylor">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--link to Boostrap CSS file-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+
+    <!--link to Bootstrap CSS 3.3.7 file-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--link to custom CSS file-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<title>Jeff Taylor | About</title>
@@ -16,42 +26,45 @@
 
 <body>
 
+    <!--Begin header and navigation bar-->
 
-    <nav class="navbar navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-            <h1 class="navbar-text">Jeff Taylor</h1>
-        </div>    
-        <ul class="nav navbar-right">
-            <li><a class="nav-link" href="index.html">About</a></li>
-            <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="wrap">
 
-    <div class="container-fluid">
-
-            
+        <div class="container-fluid">                        
         
-        <div class="row"> 
+            <nav class="navbar top-nav">
+                <div class="container-fluid nav-c">
+                    <div class="navbar-header namebox">
+                        <h1 class="navbar-text name">Jeff Taylor</h1>
+                    </div>    
+                    <ul class="nav navbar-nav navbar-right" id="menu">
+                        <li><a class="nav-link" id="nla" href="index.html">About</a></li>
+                        <li><a class="nav-link" id="nlp" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-link" id="nlc" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-                <div class="col-lg-1"></div>
-
-                <div class="col-lg-6 about">  
-                    <div class="row a-head">
-                        <div class="col-lg-12">
-                            <h2 class="h2">About Me</h2>
+        <!--Begin main content and social container-->
+        
+        
+            <div class="row"> 
+                
+                <div class="col-md-8 col-sm-6">  
+                    <div class="panel about">
+                        <div class="panel-heading am">
+                            <h2 class="panel-title" id="h2a">About Me</h2>
                         </div>
-                    </div>
-                    <div class="row a-body">
-                        <div class="col-lg-12 text-justify">
-                            <p><img class="img-fluid float-left" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
+                        <div class="panel-body">    
+                            <img class="img-fluid bio-img" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
+                            <p class="panel-text">
                             Jeff Taylor has most recently been a student in the Full Stack Web Development Boot Camp at the 
                             University of North Carolina at Chapel Hill, an intensive 24-week long program dedicated to designing and 
                             building web applications. At UNC, Jeff has developed and continues to hone his skills in HTML5, CSS3, Javascript, 
                             JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handlebars.js, React.js, C#, and Asp.net.
                             </p>
                             
-                            <p>Prior to that, Jeff held Senior Applications Engineering positions at both Lenovo and IBM.  For the past 
+                            <p class="panel-text">Prior to that, Jeff held Senior Applications Engineering positions at both Lenovo and IBM.  For the past 
                             3 years at Lenovo, Jeff led a global team of engineers, directing all technical procurement activities 
                             associated with the design, development, testing, and sourcing of printed circuit boards.  At IBM, Jeff 
                             developed and mastered a deep understanding of printed circuit boards in a career long learning process 
@@ -61,37 +74,38 @@
                     </div>
                 </div>
 
-
-
-
-                <div class="col-lg-3 connect">
-                    <div class="row c-head">
-                        <div class="col-lg-12">
-                            <h2 class="h2c">Connect with Me</h2>
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel connect">
+                        <div class="panel-heading cwm">
+                                <h2 class="panel-title" id="h2c">Connect with Me</h2>
                         </div>
-                    </div>
-                    <div class="row c-body">
-                        <div class="col-lg-12">
-                            <a href="https://github.com/JATAYLORNC" target="_blank"><img class="rounded" src="assets/images/if_github_401441.png" alt="GitHub"></a>
-                            <a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="rounded" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
-                            <a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="rounded" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                        <div class="panel-body c-body">
+                            <div class="col-sm-12 c-link">
+                                <a href="https://github.com/JATAYLORNC" target="_blank"><img class="img-1" src="assets/images/if_github_401441.png" alt="GitHub"></a>
+                                <a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="img-2" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
+                                <a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-2"></div>
-
-
-
-
+            </div>
         </div>
 
-        <div class="row text-center footer">
-            <div class="col-lg-12"><p>&#169; Copyright 2016 Jeff Taylor</p></div>
+        <div id="push"></div>
+
+    </div>
+
+    <div id="cpyrght-footer">
+        <div class="container">
+            <p id="cpyrght-text">&#169; Copyright 2016 Jeff Taylor</p>
         </div>
 
     </div>
-                    
+
+
+
+
+
 </body>
 
 </html>

@@ -5,8 +5,9 @@
     <meta name="author" content="Jeffrey A Taylor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Jeff Taylor | Contact</title>
@@ -15,39 +16,83 @@
 <body>
 
 
-    <nav class="navbar navbar-fixed-top border-bottom" role="navigation">
-            <div class="navbar-header">
-                <h1 class="navbar-text">Jeff Taylor</h1>
-            </div>    
-            <ul class="nav navbar-right">
-                <li><a class="nav-link" href="index.html">About</a></li>
-                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                <li><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-    </nav>
-					<h2>Contact</h2>
+        <!--Begin header and navigation bar-->
 
-				<form action="/action_page.php">
+        <div class="wrap">
 
-						Name<br>
-					<input type="text" name="fullname" value="John Smith" oninput="textStyle()"><br>
-
-						Email<br>
-                    <input type="text" name="email" value="example@gmail.com"><br>
+            <div class="container-fluid">                        
+            
+                <nav class="navbar top-nav">
+                    <div class="container-fluid nav-c">
+                        <div class="navbar-header namebox">
+                            <h1 class="navbar-text name">Jeff Taylor</h1>
+                        </div>    
+                        <ul class="nav navbar-nav navbar-right" id="menu">
+                            <li><a class="nav-link" id="nla" href="index.html">About</a></li>
+                            <li><a class="nav-link" id="nlp" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="nav-link" id="nlc" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+    
+            <!--Begin main content and social container-->
+    
+                <div class="row">
                     
-						Message<br>
-                    <textarea name="message"></textarea><br>
-                    
-					<input type="submit" value="submit">
-				</form>
+                    <div class="col-md-8 col-sm-6">  
+                        <div class="panel contact">
+                            <div class="panel-heading cm">
+                                <h2 class="panel-title" id="h2a">Contact</h2>
+                            </div>
+                            <div class="panel-body">
 
-						<h2>Connect With Me</h2>
+                            <!--    <form action="/action_page.php">
 
-						<a href="https://github.com/JATAYLORNC" target="_blank"><img class="rounded" src="assets/images/if_github_401441.png" alt="GitHub"></a>
-						<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="rounded" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
-						<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="rounded" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                                        Name<br>
+                                    <input type="text" name="fullname" value="John Smith" oninput="textStyle()"><br>
 
-		<p>&#169; Copyright 2016 Jeff Taylor</p>
+                                        Email<br>
+                                    <input type="text" name="email" value="example@gmail.com"><br>
+                                    
+                                        Message<br>
+                                    <textarea name="message"></textarea><br>
+                                    
+                                    <input type="submit" value="submit">
+                                </form>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="panel connect">
+                            <div class="panel-heading cwm">
+                                    <h2 class="panel-title" id="h2c">Connect with Me</h2>
+                            </div>
+                            <div class="panel-body c-body">
+                                <div class="col-sm-12 c-link">
+                                    <a href="https://github.com/JATAYLORNC" target="_blank"><img class="img-1" src="assets/images/if_github_401441.png" alt="GitHub"></a>
+                                    <a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="img-2" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
+                                    <a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="push"></div>
+
+        </div>
+                
+        <div id="cpyrght-footer">
+            <div class="container">
+                <p id="cpyrght-text">&#169; Copyright 2016 Jeff Taylor</p>
+            </div>
+
+        </div>
+                
 
 </body>
 

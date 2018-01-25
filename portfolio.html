@@ -6,8 +6,9 @@
     <meta name="author" content="Jeffrey A Taylor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Jeff Taylor | Portfolio</title>
@@ -16,41 +17,91 @@
 <body>
 
 
-    <div class="container-fluid">
+        <div class="wrap">
 
-        <nav class="navbar navbar-fixed-top border-bottom" role="navigation">
-            <div class="navbar-header">
-                <h1 class="navbar-text">Jeff Taylor</h1>
-            </div>    
-            <ul class="nav navbar-right">
-                <li><a class="nav-link" href="index.html">About</a></li>
-                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                <li><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <div class="container-fluid">                        
+            
+                <nav class="navbar top-nav">
+                    <div class="container-fluid nav-c">
+                        <div class="navbar-header namebox">
+                            <h1 class="navbar-text name">Jeff Taylor</h1>
+                        </div>    
+                        <ul class="nav navbar-nav navbar-right" id="menu">
+                            <li><a class="nav-link" id="nla" href="index.html">About</a></li>
+                            <li><a class="nav-link" id="nlp" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="nav-link" id="nlc" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+        
+                <!--Begin main content and social container-->
+                
+                
+                <div class="row"> 
+                    
+                    <div class="col-md-8 col-sm-6">  
+                        <div class="panel port">
+                            <div class="panel-heading pf">
+                                <h2 class="panel-title" id="h2a">Portfolio</h2>
+                            </div>
+                            <div class="panel-body">    
 
-				<h2>Portfolio</h2>
 
-					<a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-1.jpg" alt="Man Holding iPad">
-					<p>Hangman</p>
+                                <a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-1.jpg" 
+                                    alt="Man Holding iPad"></a>
+                                <p>Hangman</p>
 
-					<a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-2.jpg" alt="Turntable">
-					<p>RPG Game</p>
+                                <a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-2.jpg" 
+                                    alt="Turntable"></a>
+                                <p>RPG Game</p>
 
-					<a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-5.jpg" alt="Earbuds">
-					<p>Trivia Game</p>
+                                <a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-5.jpg" 
+                                    alt="Earbuds"></a>
+                                <p>Trivia Game</p>
 
-					<a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-7.jpg" alt="Mobile Phone with Earbuds">
-					<p>Rutgers Info Widget</p>
+                                <a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-7.jpg" 
+                                    alt="Mobile Phone with Earbuds"></a>
+                                <p>Rutgers Info Widget</p>
 
-					<a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-9.jpg" alt="LED TV">
-					<p>Rock Paper Scissors</p>
+                                <a href="#" target="_blank"><img class="img-fluid" src="assets/images/technics-q-c-276-207-9.jpg" 
+                                    alt="LED TV"></a>
+                                <p>Rock Paper Scissors</p>
 
-					<h2>Connect With Me</h2>
+                            </div>
+                        </div>
+                    </div>
 
-					<a href="https://github.com/JATAYLORNC" target="_blank"><img class="rounded" src="assets/images/if_github_401441.png" alt="GitHub"></a>
-					<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="rounded" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
-					<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="rounded" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="panel connect">
+                            <div class="panel-heading cwm">
+                                    <h2 class="panel-title" id="h2c">Connect with Me</h2>
+                            </div>
+                            <div class="panel-body c-body">
+                                <div class="col-sm-12 c-link">
+                                    <a href="https://github.com/JATAYLORNC" target="_blank"><img class="img-1" src="assets/images/if_github_401441.png" alt="GitHub"></a>
+                                    <a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="img-2" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
+                                    <a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="push"></div>
+        
+        </div>
+    
+        <div id="cpyrght-footer">
+            <div class="container">
+                <p id="cpyrght-text">&#169; Copyright 2016 Jeff Taylor</p>
+            </div>
+    
+            </div>
+
+
+
+
 
 </body>
 
