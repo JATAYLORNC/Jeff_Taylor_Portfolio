@@ -135,7 +135,7 @@ h1.name {
 }
 
 .project {
-	max-height: 207px;
+	max-width: 276px;
 	position: relative;
 	margin-bottom: 56px;
 }
@@ -144,13 +144,40 @@ h1.name {
 	position: absolute;
 	font-size: 1.3em;
 	text-align: center;
-	top: 136px;
-	width: 276px;
+	bottom: 5%;
+	width: 100%;
 	height: 60px;
 	line-height: 60px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 }
+
+#image1 {
+	width: 100%;
+	height: 100%
+}
+
+#image2 {
+	width: 100%;
+	height: 100%;
+}
+
+#image3 {
+	width: 100%;
+	height: 100%;
+}
+
+#image4 {
+	width: 100%;
+	height: 100%;
+}
+
+#image5 {
+	width: 100%;
+	height: 100%;
+}
+
+
 
 .contact {
 	margin-left: 6.7%;
