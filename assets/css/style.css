@@ -110,6 +110,29 @@ h1.name {
 	border-style: none;
 }
 
+.port {
+	margin-left: 6.7%;
+	max-width: 650px;
+	border-style: none;
+}
+
+.project {
+	max-width: 276px;
+	max-height: 207px;
+}
+
+.projectbox {
+	margin-bottom: 80px;
+	font-size: 1.3em;
+	text-align: center;
+	top: 136px;
+	width: 276px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
 .contact {
 	margin-left: 6.7%;
 	max-width: 650px;
@@ -144,6 +167,18 @@ padding-right: 30px;
 .img-1, .img-2 {
 	margin-right: 2%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 992px) {
 	.top-nav {
