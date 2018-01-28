@@ -8,11 +8,6 @@
 	<meta name="author" content="Jeffrey A Taylor">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--link to Boostrap CSS file-->
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
-
-
     <!--link to Bootstrap CSS 3.3.7 file-->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,43 +21,39 @@
 
 <body>
 
-    <!--Begin header and navigation bar-->
-
     <div class="wrap">
 
         <div class="container-fluid">                       
-            
-                <nav class="navbar navbar-default top-nav">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header" id="namebox">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" 
-                                aria-expanded="false" >
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" id="name" href="#">Jeff Taylor</a>
-                        </div>
-                    
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav navbar-right" id="menu">
-                                <li><a id="nla" href="index.html">About</a></li>
-                                <li><a id="nlp" href="portfolio.html">Portfolio</a></li>
-                                <li><a id="nlc" href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
 
+            <!--Begin header and navigation bar-->
+            <nav class="navbar navbar-default top-nav">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" 
+                            aria-expanded="false" >
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" id="name" href="#">Jeff Taylor</a>
+                    </div>                
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right" id="menu">
+                            <li><a id="nla" href="index.html">About</a></li>
+                            <li><a id="nlp" href="portfolio.html">Portfolio</a></li>
+                            <li><a id="nlc" href="contact.html">Contact</a></li>
+                        </ul>
                     </div>
-                </nav>   
+                </div>
+            </nav>   
 
-        <!--Begin main content and social container-->
-        
-        
+            <!--Begin main content-->        
             <div class="row"> 
-                
+
                 <div class="col-md-8 col-sm-6">  
+                    <!--Begin "About Me" bio panel-->
                     <div class="panel about">
                         <div class="panel-heading am">
                             <h2 class="panel-title" id="h2a">About Me</h2>
@@ -86,7 +77,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6">                    
+                    <!--Begin social links panel-->
                     <div class="panel connect">
                         <div class="panel-heading cwm">
                                 <h2 class="panel-title" id="h2c">Connect with Me</h2>
@@ -110,6 +102,7 @@
 
     </div>
 
+    <!--Begin "sticky" footer-->
     <div id="cpyrght-footer">
         <div class="container">
             <p id="cpyrght-text">&#169; Copyright 2016 Jeff Taylor</p>
@@ -117,7 +110,7 @@
 
     </div>
 
-
+    <!--Scripts required to enable collapsible navbar menu-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

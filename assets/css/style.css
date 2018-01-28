@@ -11,10 +11,6 @@ body {
 	margin: 0;
 }
 
-/*.wrapper:after footer {
-	height: 90px;
-}*/
-
 header {
 	max-width: 960px;
 }
@@ -58,8 +54,9 @@ header {
 	color: #ffffff;
 	background-color: #4aaaa5;
 	align-items: center;
-	height: 100%;
+	min-height: 92px;
 	margin: 0;
+	padding-top: 35px;
 }
 
 .top-nav {
@@ -69,10 +66,6 @@ header {
 	background-color: #ffffff;
 	margin-left: -15px;
 	margin-right: -15px;
-}
-
-#namebox {
-	height: 100%
 }
 
 #menu {
@@ -87,6 +80,10 @@ header {
 	padding-bottom: 0;
 	margin-top: 35px;
 }
+
+#nla:hover, #nlp:hover, #nlc:hover {
+	background-color: rgba(74, 170, 165, 0.5);
+} 
 
 #nl:hover {
 	color: #4aaaa5;
@@ -256,7 +253,7 @@ padding-right: 30px;
 		height: 40px;
 		margin-top: 20px;
 		border: none;
-		font-size: 1.1em;
+		font-size: 1.8rem;
 	}
 	
 	input[type=submit]:hover {
@@ -288,275 +285,11 @@ padding-right: 30px;
 
 
 
-@media screen and (max-width: 992px) {
-/*	.top-nav {
-		padding: 0;
-	}*/
-
-	.about, .contact{
-		margin-left: 0;
-		max-width: 500px;
-		margin-bottom: 40px;
-	}
-
-}
-
 @media screen and (max-width: 768px) {
-	/* #namebox {
-		transform: scale(0.8);
+	#nlp {
+		border: none;
 	}
-
-	#name {
-		transform: scale(0.8);
-		white-space: nowrap;
-	} */
-
 }
-
-.contact {
-	position: relative;
-	margin-right: 0;
-	text-decoration: none;
-	color: #777777;
-}
-
-/*
-
-.container {
-	position: relative;
-	height: 610px;
-	width: 100%;
-}
-
-.pcontainer {
-	position: relative;
-	height: 909px;
-	width: 100%;
-}
-
-.ccontainer {
-	position: relative;
-	height: 791px;
-	width: 100%;
-
-}
-
-
-.port {
-	position: absolute;
-	width: 650px;
-	height: 869px;
-	background-color: #ffffff;
-	left: 90px;
-	top: 40px;
-}
-
-.contactbox {
-	position: absolute;
-	width: 650px;
-	height: 616px;
-	background-color: #ffffff;
-	left: 90px;
-	top: 40px;
-}
-
-.pfbox {
-	position: relative;
-	width: 590px;
-	height: 767px;
-}
-
-.formbox {
-	position: relative;
-	width: 590px;
-	height: 477.8px;
-	margin-left: 30px; 
-}
-
-.ambox, .pfbannerbox, .cbox {
-	position: relative;
-	height: 100px;
-	line-height: 100px;
-	width: 590px;
-	margin-right: 30px;
-	margin-left: 30px;
-	border-bottom: 3px solid #dddddd;
-	font-size: 1.8em;
-	font-weight: bold;
-}
-
-div.bio {
-	margin-top: 30px;
-	padding-right: 30px;
-	padding-left: 30px;
-	font-size: 1.05em;
-}
-
-.bio p {
-	margin-top: 1.1em;
-}
-
-
-.iname {
-	margin-top: 26px;
-	margin-bottom: 6px;
-	font-size: 1.2em;
-}
-
-.iemail, .imessage {
-	margin-top: 16px;
-	margin-bottom: 6px;
-	font-size: 1.2em;
-}
-
-input[type=text] {
-	width: 570px;
-	font-size: 0.9em;
-	color: #dddddd;
-	padding: 8px;
-}
-
-input[type=text]:focus {
-	color: #777777;
-}
-
-textarea {
-	height: 200px;
-	width: 584px;
-	font-size: 1.1em;
-	color: #777777;
-	padding: 8px;
-}
-
-input[type=submit] {
-	background-color: #4aaaa5;
-	color: #ffffff;
-	width: 120px;
-	height: 40px;
-	margin-top: 20px;
-	border: none;
-	font-size: 1.1em;
-}
-
-input[type=submit]:hover {
-	width: 125px;
-	height: 45px;
-}
-
-.connect {
-	width: 270px;
-	height: 200px;
-	background-color: #ffffff;
-	margin-top: 40px;
-}
-
-.connect1 {
-	position: absolute;
-	left: 847px;
-}
-
-.connect2, .connect3 {
-	position: absolute;
-	left: 780px;
-}
-
-.cwmbox {
-	position: relative;
-	height: 70px;
-	line-height: 70px;
-	width: 210px;
-	margin-left: 30px;
-	margin-right: 30px;
-	border-bottom: 2px solid #dddddd;
-	font-size: 1.35em;
-	font-weight: bold;
-}
-
-.social {
-	margin-left: 30px;
-	margin-bottom: 40px;
-}
-
-.gh, .li {
-	margin-right: 5px;
-	margin-top: 24px;
-}
-
-.gh:hover, .li:hover {
-	width:69px;
-	height:69px;
-	margin-right: 0px;
-	margin-top: 19px;
-}
-
-.so {
-	margin-top: 24px;
-}
-
-.so:hover {
-	width:69px;
-	height:69px;
-	margin-top: 19px;
-}
-
-div.project1 {
-	position: absolute;
-	width: 276px;
-	left: 30px;
-	top: 40px;
-}
-
-div.project2 {
-	position: absolute;
-	width: 276px;
-	left: 345px;
-	top: 40px;
-}
-
-div.project3 {
-	position: absolute;
-	width: 276px;
-	left: 30px;
-	top: 300px;
-}
-
-div.project4 {
-	position: absolute;
-	width: 276px;
-	left: 345px;
-	top: 300px;
-}
-
-div.project5 {
-	position: absolute;
-	width: 276px;
-	left: 30px;
-	top: 560px;
-}
-
-.project1:hover img, .project2:hover img, .project3:hover img, .project4:hover img, .project5:hover img {
-transform: scale(1.1);
-}
-
-.project1:hover .projectbox, .project2:hover .projectbox, .project3:hover .projectbox, 
-.project4:hover .projectbox, .project5:hover .projectbox {
-	transform: scale(1.1);
-}
-
-div.projectbox {
-	position: absolute;
-	font-size: 1.3em;
-	text-align: center;
-	top: 136px;
-	width: 276px;
-	height: 60px;
-	line-height: 60px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-}
-
-*/
-
 
 .wrap {
 	min-height: 100%;
