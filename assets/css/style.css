@@ -51,18 +51,19 @@ header {
 	border-bottom: 2px solid #dddddd;
 }
 
-h1.name {
+#name {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 3rem;
 	font-weight: bold;
 	color: #ffffff;
+	background-color: #4aaaa5;
 	align-items: center;
-	padding: 0;
-	line-height: 90px;
+	height: 100%;
 	margin: 0;
 }
 
 .top-nav {
-	height: 92px;
+	min-height: 92px;
 	border-bottom: 2px solid #cccccc;
 	padding: 0 16% 0 11.6%;
 	background-color: #ffffff;
@@ -70,16 +71,8 @@ h1.name {
 	margin-right: -15px;
 }
 
-.nav-c {
-	max-height: 92px;
-}
-
-.namebox {
-	float: left;
-	background-color: #4aaaa5;
-	height: 90px;
-	max-width: 250px;
-	padding: 0 2rem;
+#namebox {
+	height: 100%
 }
 
 #menu {
@@ -113,6 +106,7 @@ h1.name {
 .bio-img {
 	max-width: 180px;
 	max-height: 180px;
+	width: 100%;
 	margin-right: 20px;
 	float: left;
 }
@@ -270,6 +264,22 @@ padding-right: 30px;
 		height: 45px;
 	}
 
+	input[type=text] {
+		color: #dddddd;
+	}
+
+	input[type=email] {
+		color: #dddddd;
+	}
+
+	input[type=text]:focus {
+		color: #777777;
+	}
+
+	input[type=email]:focus {
+		color: #777777;
+	}
+
 
 
 
@@ -279,9 +289,9 @@ padding-right: 30px;
 
 
 @media screen and (max-width: 992px) {
-	.top-nav {
+/*	.top-nav {
 		padding: 0;
-	}
+	}*/
 
 	.about, .contact{
 		margin-left: 0;
@@ -292,14 +302,14 @@ padding-right: 30px;
 }
 
 @media screen and (max-width: 768px) {
-	.namebox {
+	/* #namebox {
 		transform: scale(0.8);
 	}
 
-	h1.name {
+	#name {
 		transform: scale(0.8);
 		white-space: nowrap;
-	}
+	} */
 
 }
 

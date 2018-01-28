@@ -30,20 +30,32 @@
 
     <div class="wrap">
 
-        <div class="container-fluid">                        
-        
-            <nav class="navbar top-nav">
-                <div class="container-fluid nav-c">
-                    <div class="navbar-header namebox">
-                        <h1 class="navbar-text name">Jeff Taylor</h1>
-                    </div>    
-                    <ul class="nav navbar-nav navbar-right" id="menu">
-                        <li><a class="nav-link" id="nla" href="index.html">About</a></li>
-                        <li><a class="nav-link" id="nlp" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav-link" id="nlc" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="container-fluid">                       
+            
+                <nav class="navbar navbar-default top-nav">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header" id="namebox">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" 
+                                aria-expanded="false" >
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" id="name" href="#">Jeff Taylor</a>
+                        </div>
+                    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right" id="menu">
+                                <li><a id="nla" href="index.html">About</a></li>
+                                <li><a id="nlp" href="portfolio.html">Portfolio</a></li>
+                                <li><a id="nlc" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>   
 
         <!--Begin main content and social container-->
         
@@ -56,7 +68,7 @@
                             <h2 class="panel-title" id="h2a">About Me</h2>
                         </div>
                         <div class="panel-body a-body">    
-                            <img class="img-responsive bio-img" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
+                            <img class="bio-img" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
                             <p class="panel-text">
                             Jeff Taylor has most recently been a student in the Full Stack Web Development Boot Camp at the 
                             University of North Carolina at Chapel Hill, an intensive 24-week long program dedicated to designing and 
@@ -106,7 +118,8 @@
     </div>
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 </body>

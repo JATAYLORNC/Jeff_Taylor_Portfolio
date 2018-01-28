@@ -23,17 +23,24 @@
             <div class="container-fluid">                        
             
                 <nav class="navbar top-nav">
-                    <div class="container-fluid nav-c">
-                        <div class="navbar-header namebox">
-                            <h1 class="navbar-text name">Jeff Taylor</h1>
+                        <div class="navbar-header" id="namebox">
+                            <a class="navbar-brand" id="name" href="#">Jeff Taylor</a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+        <!--                    <h1 class="navbar-text name">Jeff Taylor</h1>-->
                         </div>    
-                        <ul class="nav navbar-nav navbar-right" id="menu">
-                            <li><a class="nav-link" id="nla" href="index.html">About</a></li>
-                            <li><a class="nav-link" id="nlp" href="portfolio.html">Portfolio</a></li>
-                            <li><a class="nav-link" id="nlc" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
+        
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right" id="menu">
+                                <li><a class="nav-link" id="nla" href="index.html">About</a></li>
+                                <li><a class="nav-link" id="nlp" href="portfolio.html">Portfolio</a></li>
+                                <li><a class="nav-link" id="nlc" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
     
             <!--Begin main content and social container-->
     
@@ -49,8 +56,8 @@
                                 <form action="/action_page.php">
 
                                     <div class="form-group">
-                                        <label for="name">Name:</label>
-                                        <input type="text" class="form-control" id="name" name="fullname" 
+                                        <label for="ctc-name">Name:</label>
+                                        <input type="text" class="form-control" id="ctc-name" name="fullname" 
                                         value="John Smith" oninput="textStyle()">
                                     </div>
                                     
