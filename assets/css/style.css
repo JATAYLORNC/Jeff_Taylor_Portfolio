@@ -128,7 +128,6 @@ header {
 
 .connect {
 	max-width: 270px;
-/*	max-height: 200px;*/
 	border-style: none;
 }
 
@@ -161,7 +160,7 @@ header {
 }
 
 .project:hover #image1 {
-	transform: scale(1.1);
+	transform: scale(1.005);
 }
 
 #image2 {
@@ -170,7 +169,7 @@ header {
 }
 
 .project:hover #image2 {
-	transform: scale(1.1);
+	transform: scale(1.005);
 }
 
 #image3 {
@@ -179,7 +178,7 @@ header {
 }
 
 .project:hover #image3 {
-	transform: scale(1.1);
+	transform: scale(1.005);
 }
 
 #image4 {
@@ -188,7 +187,7 @@ header {
 }
 
 .project:hover #image4 {
-	transform: scale(1.1);
+	transform: scale(1.005);
 }
 
 #image5 {
@@ -197,7 +196,7 @@ header {
 }
 
 .project:hover #image5 {
-	transform: scale(1.1);
+	transform: scale(1.005);
 }
 
 .a-body {
@@ -239,11 +238,11 @@ padding-right: 30px;
 }
 
 .img-1:hover, .img-2:hover, .img-3:hover {
-	transform: scale(1.1);
+	transform: scale(1.02);
 }
 
 .project:hover .projectbox {
-	transform: scale(1.1);
+	transform: scale(1.005);
 	}
 
 	input[type=submit] {
@@ -277,40 +276,115 @@ padding-right: 30px;
 		color: #777777;
 	}
 
+	#push {
+		height: 90px;
+	}
 
+	#cpyrght-footer {
+		background-color: #666666;
+		height: 90px;
+		width: 100%;
+		border-top: 8px solid #4aaaa5;
+		text-align: center;
+	}
 
+	#cpyrght-text {
+		font-size: 0.7em;
+		color: #dddddd;
+		margin: 34px 0;
+	}
 
+@media screen and (min-width: 768px) and (max-width: 960px) {
 
+	.about {
+		margin: auto;
+	}
 
+	.port {
+		margin: auto;
+	}
 
+	.contact {
+		margin: auto;
+	}
 
+	.aboutText {
+		text-align: justify;
+	}
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
 	#nlp {
 		border: none;
 	}
+
+	.wrap {
+		min-height: 100%;
+		margin-bottom: -90px;
+	}
+
+	.about {
+		margin: auto;
+	}
+
+	.port {
+		margin: auto;
+	}
+
+	.contact {
+		margin: auto;
+	}
+
+	.connect {
+		max-width: 650px;
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.aboutText {
+		text-align: justify;
+	}
 }
+
+@media screen and (max-width: 480px) {
+	#nlp {
+		border: none;
+	}
 
 .wrap {
 	min-height: 100%;
 	margin-bottom: -90px;
 }
 
-#push {
-	height: 90px;
+.bio-img {
+	float: none;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	max-width: 320px;
+	max-height: 320px;
 }
 
-#cpyrght-footer {
-	background-color: #666666;
-	height: 90px;
-/*	line-height: 82px;*/
-	width: 100%;
-	border-top: 8px solid #4aaaa5;
-	text-align: center;
+.about {
+	margin: auto;
 }
 
-#cpyrght-text {
-	font-size: 0.7em;
-	color: #dddddd;
-	margin: 34px 0;
+.port {
+	margin: auto;
+}
+
+.contact {
+	margin: auto;
+}
+
+.aboutText {
+	text-align: justify;
+}
+
+.connect {
+	max-width: 480px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
