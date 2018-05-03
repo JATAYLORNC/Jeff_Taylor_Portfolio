@@ -9,96 +9,243 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--link to Bootstrap CSS 3.3.7 file-->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
     <!--link to custom CSS file-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <!-- Added link to the jQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     
     <!--link to javascript file-->
     <script src="assets/javascript/portfolio.js"></script>
 
-	<title>Jeff Taylor | About</title>
+    <link rel="icon" type="image/png" href="assets/images/ProfilePicture_favicon.jpg">
+
+	<title>Jeff Taylor | Full Stack Developer</title>
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <div class="wrap">
-
         <div class="container-fluid">                       
-
-            <!--Begin header and navigation bar-->
-            <nav class="navbar navbar-default top-nav">
+            <nav class="navbar fixed-top navbar-expand-md navbar-dark" id="myNavbar">
                 <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" 
-                            aria-expanded="false" >
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" id="name" href="#">Jeff Taylor</a>
-                    </div>                
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right" id="menu">
-                            <li><a id="nla" href="index.html">About</a></li>
-                            <li><a id="nlp" href="portfolio.html">Portfolio</a></li>
-                            <li><a id="nlc" href="contact.html">Contact</a></li>
+                    <a class="navbar-brand" href="#"><strong>Jeff Taylor</strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item pl-5">
+                            <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item pl-3">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item pl-3">
+                            <a class="nav-link" href="#contact">Skills</a>
+                            </li>
+                            <li class="nav-item pl-3">
+                            <a class="nav-link" href="#contact">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-            </nav>   
+            </nav>
+
+            <div class="bgimg">
+                
+                <div class="coverimg d-flex text-center align-items-center animated fadeInDown delay">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <h1 class="text-white">My Name is Jeff Taylor and I'm a Full Stack Web Developer in RTP</h1>
+                    </div>
+                    <div class="col-md-3"></div>    
+                </div>
+                
+
+            </div>
+
 
             <!--Begin main content-->        
-            <div class="row"> 
-
-                <div class="col-md-8 col-sm-7 col-xs-12">  
-                    <!--Begin "About Me" bio panel-->
-                    <div class="panel about">
-                        <div class="panel-heading am">
-                            <h2 class="panel-title" id="h2a">About Me</h2>
-                        </div>
-                        <div class="panel-body a-body">    
-                            <img class="bio-img" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
-                            <p class="panel-text, aboutText">
-                            Jeff Taylor has most recently been a student in the Full Stack Web Development Boot Camp at the 
-                            University of North Carolina at Chapel Hill, an intensive 24-week long program dedicated to designing and 
-                            building web applications. At UNC, Jeff has developed and continues to hone his skills in HTML5, CSS3, Javascript, 
-                            JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handlebars.js, React.js, C#, and Asp.net.
-                            </p>
-                            
-                            <p class="panel-text aboutText">Prior to that, Jeff held Senior Applications Engineering positions at both Lenovo and IBM.  For the past 
-                            3 years at Lenovo, Jeff led a global team of engineers, directing all technical procurement activities 
-                            associated with the design, development, testing, and sourcing of printed circuit boards.  At IBM, Jeff 
-                            developed and mastered a deep understanding of printed circuit boards in a career long learning process 
-                            culminating in his position as the lead subject matter expert at IBM.         
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-5 col-xs-12">                    
-                    <!--Begin social links panel-->
-                    <div class="panel connect">
-                        <div class="panel-heading cwm">
-                                <h2 class="panel-title" id="h2c">Connect with Me</h2>
-                        </div>
-                        <div class="panel-body c-body">
-                            <div class="col-sm-12 col-xs-12 c-link">
-                                <a href="https://github.com/JATAYLORNC" target="_blank"><img class="img-1" 
-                                    src="assets/images/if_github_401441.png" alt="GitHub"></a>
-                                <a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="img-2" 
-                                    src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
-                                <a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="img-3"
-                                    src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+            <div class="row mainContent w-100">
+                <div class = "col-md-12 p-0">
+                    <div id="about" class="row container-fluid d-flex justify-content-center m-0 bgabout" style="padding-top:70px;padding-bottom:70px">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 text-white">
+                            <div class="row justify-content-center mb-3">
+                                <h2 class="text-center">About Me</h2>
+                            </div>
+                            <div class="row aboutMe">
+                                <p>
+                                Hello!  Thank you so much for viewing my website.  Let me tell you a little bit about myself.  My name is Jeff 
+                                Taylor and I live in Raleigh, NC.  I have most recently been a student in the Full Stack Web Development Boot 
+                                Camp at the University of North Carolina at Chapel Hill, an intensive 24-week long program dedicated to 
+                                designing and building web applications. 
+                                </p>
+                            </div>
+                            <div class="row aboutMe">
+                                <p>Prior to that, I held Senior Applications Engineering positions at both Lenovo and 
+                                IBM where I developed and mastered a deep understanding of printed circuit boards culminating in my 
+                                position as the lead subject matter expert.         
+                                </p>
+                            </div>
+                            <div class="row aboutMe">
+                                <p>Throughout my career I have always found that my greatest love and highest movtivation
+                                has been in the solving of complex problems as well as in the opportunity to learn new skills and become proficient in 
+                                their application.  So it is a natural progression for me to pursue an interest in software development that I have had
+                                since college.  I am excited about the opportunity to further develop my coding skills and to add new skills to my arsenal
+                                while helping to solve problems.         
+                                </p>
                             </div>
                         </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div id="portfolio" class="row container-fluid d-flex justify-content-center m-0 bgmain" style="padding-top:70px;padding-bottom:70px">
+                        <div class="col-md-12">
+                            <div class="row justify-content-center mb-4">
+                                <h2>My Portfolio</h2>
+                            </div>
+                            
+                            <div class="row mb-4">
+                                <div class="col-md-4">
+                                    <a href="https://jataylornc.github.io/Hangman-Game/" class="portLink">
+                                        <div class=" card portCard">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h3 class="card-title text-center">Hangman</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <img src="assets/images/hangman.PNG" class="img-fluid portImg" alt="Disney Hangman Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://jataylornc.github.io/Wizards-Duel/" class="portLink">
+                                        <div class=" card portCard">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h3 class="card-title text-center">Wizard's Duel</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <img src="assets/images/wizardsDuel.PNG" class="img-fluid portImg" alt="Wizard's Duel Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="https://jataylornc.github.io/TriviaGame/" class="portLink">
+                                        <div class=" card portCard">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h3 class="card-title text-center">Pixar Movie Trivia</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <img src="assets/images/pixarMovieTrivia.PNG" class="img-fluid portImg" alt="Pixar Movie Trivia Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row mb-5">
+                                    
+                                <div class="col-md-4">
+                                    <a href="https://jataylornc.github.io/Rock_Paper_Scissors-Multiplayer/" class="portLink">
+                                        <div class=" card portCard">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h3 class="card-title text-center">Rock, Paper, Scissors</h3>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="assets/images/RPS.PNG" class="img-fluid portImg" alt="Rock, Paper, Scissors Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                        <a href="https://jataylornc.github.io/Giphy/" class="portLink">
+                                            <div class=" card portCard">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h3 class="card-title text-center">Marine Animal GIFs</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <img src="assets/images/marineGiphy.PNG" class="img-fluid portImg" alt="Marine Animal GIFs Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                            <a href="https://projectoneorg.github.io/Hoot/" class="portLink">
+                                                <div class=" card portCard">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h3 class="card-title text-center">Hoot</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <img src="assets/images/Hoot.PNG" class="img-fluid portImg" alt="Hoot Image">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div id="skills" class="container-fluid d-flex justify-content-center bgmain" style="padding-top:70px;padding-bottom:70px">
+                        <h2>Skills</h2>
+                    </div>
+                    <div id="contact" class="container-fluid d-flex justify-content-center bgmain" style="padding-top:70px;padding-bottom:70px">
+                        <h2>Contact Me</h2>
                     </div>
                 </div>
             </div>
@@ -117,8 +264,9 @@
     </div>
 
     <!--Scripts required to enable collapsible navbar menu-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </body>
