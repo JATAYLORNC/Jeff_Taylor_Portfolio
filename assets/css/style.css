@@ -25,7 +25,7 @@ body {
 
 .bgimg {
 	position: absolute; 
-	top: 0;
+	top: 10%;
 	left: 0;
 	background-image: url("../images/Profile.jpg");
 	background-repeat: no-repeat;
@@ -67,6 +67,7 @@ body {
 	border-width: 1px;
 	border-style: solid;
 	border-color: white;
+	border-radius: 6px;
 	box-shadow: 2px 4px white;
 }
 
@@ -125,6 +126,11 @@ body {
 	margin-bottom: 70px;
 }
 
+.aSection, .pSection {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 .ctSection {
 	padding-top:20px;
 	padding-bottom:0px;
@@ -175,10 +181,6 @@ body {
 
 .blue-tooltip {
 	display: inline-block;
-}
-
-header {
-	max-width: 960px;
 }
 
 	.cpyrght-text {
