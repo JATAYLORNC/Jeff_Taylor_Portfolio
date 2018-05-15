@@ -63,8 +63,15 @@ body {
 	color: #ffffff;
 }
 
+.sborder {
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 2px 4px white;
+}
+
 #email {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	text-decoration: none;
 }
 
@@ -76,7 +83,7 @@ body {
 }
 
 #phone {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .portImg {
@@ -107,6 +114,22 @@ body {
 	background-color: #ffffff;
 }
 
+.skillTitle {
+	padding-top:70px;
+	padding-bottom:40px;
+}
+
+.skillCard {
+	border: 1px solid #5543ff;
+	border-radius: 12px;
+	margin-bottom: 70px;
+}
+
+.ctSection {
+	padding-top:20px;
+	padding-bottom:0px;
+}
+
 .cCard {
 	border: none;
 	background-color: #5543ff;
@@ -131,30 +154,37 @@ body {
 	visibility: visible;
 }
 
+.logo {
+	max-width: 100%;
+	height: auto;
+
+}
+
+.tooltip-inner {
+	background-color: #5543ff;
+	color: white;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before,.bs-tooltip-top .arrow::before { border-top-color: #5543ff !important; }
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,.bs-tooltip-bottom .arrow::before { border-bottom-color: #5543ff !important; }
+
+.bs-tooltip-auto[x-placement^=left] .arrow::before,.bs-tooltip-left .arrow::before { border-left-color: #5543ff !important; }
+
+.bs-tooltip-auto[x-placement^=right] .arrow::before,.bs-tooltip-right .arrow::before { border-right-color: #5543ff !important; }
+
+.blue-tooltip {
+	display: inline-block;
+}
+
 header {
 	max-width: 960px;
 }
 
-	#push {
-		height: 90px;
-	}
-
-	#cpyrght-footer{
-		background-color: #666666;
-		height: 90px;
-		width: 100%;
-		border-top: 8px solid #4aaaa5;
-		text-align: center;
-	}
-
-	#push {
-		height: 90px;
-	}
-
-	#cpyrght-text {
-		font-size: 0.7em;
-		color: #dddddd;
-		margin: 34px 0;
+	.cpyrght-text {
+		font-size: 0.9rem;
+		color: #ffffff;
+		margin: 20px 0 34px 0;
 	}
 
 	.wrap {
