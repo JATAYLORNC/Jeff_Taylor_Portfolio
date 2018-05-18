@@ -152,7 +152,7 @@ body {
   align-items: center;
   visibility: hidden;
 	border-radius: 12px;
-	color: #ffffff
+	color: #ffffff;
 }
 
 .portCard:hover #hangmanMask, .portCard:hover #wdMask, .portCard:hover #triviaMask, .portCard:hover #rpsMask, 
@@ -193,14 +193,61 @@ body {
 		min-height: 100%;
 	}
 
+	@media screen and (min-width: 960px) and (max-width: 1300px) {
+
+		#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask {
+			font-size: 0.7rem;
+		}
+
+		h3 {
+			font-size: 1.4rem;
+		}
+	
+	}
+
+
+
+
 @media screen and (min-width: 768px) and (max-width: 960px) {
+
+	.cmar {
+		margin-bottom: 20px;
+	}
 
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
+
+	#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask {
+		font-size: 1rem;
+	}
+
+	.cmar {
+		margin-bottom: 20px;
+	}
 	
 }
 
 @media screen and (max-width: 480px) {
+
+	.bgimg {
+		background-image: url("../images/profile_small.jpg");
+	}
+
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+	}
+
+	#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask {
+		font-size: 0.7rem;
+	}
+
+	.cmar {
+		margin-bottom: 20px;
+	}
 	
 }
