@@ -141,7 +141,7 @@ body {
 	background-color: #5543ff;
 }
 
-#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask {
+#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, #scraperMask {
 	position: absolute;
   left: 0;
   top: 0;
@@ -156,7 +156,8 @@ body {
 }
 
 .portCard:hover #hangmanMask, .portCard:hover #wdMask, .portCard:hover #triviaMask, .portCard:hover #rpsMask, 
-.portCard:hover #giphyMask, .portCard:hover #hootMask, .portCard:hover #pcMask, .portCard:hover #burgerMask {
+.portCard:hover #giphyMask, .portCard:hover #hootMask, .portCard:hover #pcMask, .portCard:hover #burgerMask, 
+.portCard:hover #scraperMask{
 	visibility: visible;
 }
 
@@ -195,7 +196,7 @@ body {
 
 	@media screen and (min-width: 1201px) and (max-width: 1350px) {
 
-		#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask {
+		#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 			font-size: 0.95rem;
 		}
 
@@ -217,7 +218,7 @@ body {
 
 	@media screen and (min-width: 1101px) and (max-width: 1200px) {
 
-		#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask {
+		#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 			font-size: 0.9rem;
 		}
 
@@ -239,7 +240,7 @@ body {
 
 	@media screen and (min-width: 1044px) and (max-width: 1100px) {
 
-		#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask {
+		#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 			font-size: 0.8rem;
 		}
 
@@ -263,7 +264,7 @@ body {
 
 	@media screen and (min-width: 992px) and (max-width: 1043px) {
 
-		#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask {
+		#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, #scraperMask {
 			font-size: 0.75rem;
 		}
 
@@ -292,7 +293,7 @@ body {
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
 
-	#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask {
+	#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 		font-size: 1rem;
 	}
 
@@ -320,7 +321,7 @@ body {
 		font-size: 1.4rem;
 	}
 
-	#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask {
+	#hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 		font-size: 0.85rem;
 	}
 
