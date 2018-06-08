@@ -126,9 +126,14 @@ body {
 	margin-bottom: 70px;
 }
 
-.aSection, .pSection {
+.aSection {
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+.pSection {
+	padding-top: 70px;
+	padding-bottom: 0;
 }
 
 .ctSection {
@@ -141,7 +146,8 @@ body {
 	background-color: #5543ff;
 }
 
-#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, #scraperMask {
+#hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, 
+#scraperMask, #clickyMask {
 	position: absolute;
   left: 0;
   top: 0;
@@ -157,7 +163,7 @@ body {
 
 .portCard:hover #hangmanMask, .portCard:hover #wdMask, .portCard:hover #triviaMask, .portCard:hover #rpsMask, 
 .portCard:hover #giphyMask, .portCard:hover #hootMask, .portCard:hover #pcMask, .portCard:hover #burgerMask, 
-.portCard:hover #scraperMask{
+.portCard:hover #scraperMask, .portCard:hover #clickyMask{
 	visibility: visible;
 }
 
@@ -289,6 +295,10 @@ body {
 		margin-bottom: 20px;
 	}
 
+	#prow1, #prow2, #prow3 {
+		margin-bottom: 0 !important;
+	}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -303,6 +313,10 @@ body {
 
 	.cmar {
 		margin-bottom: 20px;
+	}
+
+	#prow1, #prow2, #prow3 {
+		margin-bottom: 0 !important;
 	}
 	
 }
@@ -331,6 +345,10 @@ body {
 
 	.cmar {
 		margin-bottom: 20px;
+	}
+
+	#prow1, #prow2, #prow3 {
+		margin-bottom: 0 !important;
 	}
 	
 }
