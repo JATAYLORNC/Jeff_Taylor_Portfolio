@@ -25,7 +25,7 @@ body {
 
 .bgimg {
 	position: absolute; 
-	top: 10%;
+	top: 8%;
 	left: 0;
 	background-image: url("../images/Profile.jpg");
 	background-repeat: no-repeat;
@@ -147,7 +147,7 @@ body {
 }
 
 #clickyMask, #hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, 
-#scraperMask {
+#scraperMask, #spMask {
 	position: absolute;
   left: 0;
   top: 0;
@@ -163,7 +163,7 @@ body {
 
 .portCard:hover #clickyMask, .portCard:hover #hangmanMask, .portCard:hover #wdMask, .portCard:hover #triviaMask, .portCard:hover #rpsMask, 
 .portCard:hover #giphyMask, .portCard:hover #hootMask, .portCard:hover #pcMask, .portCard:hover #burgerMask, 
-.portCard:hover #scraperMask {
+.portCard:hover #scraperMask, .portCard:hover #spMask {
 	visibility: visible;
 }
 
@@ -200,13 +200,25 @@ body {
 		min-height: 100%;
 	}
 
+	@media screen and (min-width: 1350px) {
+		#spMask {
+			font-size: 0.85rem;
+		}
+	}
+
+	@media screen and (min-height: 768px) {
+		.bgimg {
+			top: 2%;
+		}
+	}
+ 
 	@media screen and (min-width: 1201px) and (max-width: 1350px) {
 
-		#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask, {
+		#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 			font-size: 0.95rem;
 		}
 
-		#wdMask, #pcMask, #hootMask {
+		#wdMask, #pcMask, #hootMask, #spMask {
 			font-size: 0.85rem;
 		}
 
@@ -228,7 +240,7 @@ body {
 			font-size: 0.9rem;
 		}
 
-		#wdMask, #pcMask, #hootMask {
+		#wdMask, #pcMask, #hootMask, #spMask {
 			font-size: 0.75rem;
 		}
 
@@ -246,11 +258,11 @@ body {
 
 	@media screen and (min-width: 1044px) and (max-width: 1100px) {
 
-		#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask, {
+		#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 			font-size: 0.8rem;
 		}
 
-		#wdMask, #pcMask, #hootMask {
+		#wdMask, #pcMask, #hootMask, #spMask {
 			font-size: 0.7rem;
 		}
 
@@ -270,11 +282,15 @@ body {
 
 	@media screen and (min-width: 992px) and (max-width: 1043px) {
 
-		#clickyMask, #hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, #scraperMask, {
+		.bgimg {
+			background-image: url("../images/profile_portrait.jpg");
+		}
+		
+		#clickyMask, #hangmanMask, #wdMask, #triviaMask, #rpsMask, #giphyMask, #hootMask, #pcMask, #burgerMask, #scraperMask {
 			font-size: 0.75rem;
 		}
 
-		#wdMask, #pcMask, #hootMask {
+		#wdMask, #pcMask, #hootMask, #spMask {
 			font-size: 0.65rem;
 		}
 
@@ -291,6 +307,10 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+	.bgimg {
+		background-image: url("../images/profile_portrait.jpg");
+	}
+	
 	.cmar {
 		margin-bottom: 20px;
 	}
@@ -303,11 +323,11 @@ body {
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
 
-	#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask, {
+	#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
 		font-size: 1rem;
 	}
 
-	#wdMask, #pcMask, #hootMask {
+	#wdMask, #pcMask, #hootMask, #spMask {
 		font-size: 0.95rem;
 	}
 
@@ -335,12 +355,12 @@ body {
 		font-size: 1.4rem;
 	}
 
-	#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask, {
-		font-size: 0.85rem;
+	#clickyMask, #hangmanMask, #triviaMask, #rpsMask, #giphyMask, #burgerMask, #scraperMask {
+		font-size: 0.75rem;
 	}
 
-	#wdMask, #pcMask, #hootMask {
-		font-size: 0.74rem;
+	#wdMask, #pcMask, #hootMask, #spMask {
+		font-size: 0.60rem;
 	}
 
 	.cmar {
