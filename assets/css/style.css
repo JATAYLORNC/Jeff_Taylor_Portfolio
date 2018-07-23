@@ -161,6 +161,23 @@ body {
 	color: #ffffff;
 }
 
+#spMask {
+	position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #5543ff;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+	border-radius: 12px;
+	color: #ffffff;
+	font-size: 0.85rem;
+}
+
+
+
 .portCard:hover #clickyMask, .portCard:hover #hangmanMask, .portCard:hover #wdMask, .portCard:hover #triviaMask, .portCard:hover #rpsMask, 
 .portCard:hover #giphyMask, .portCard:hover #hootMask, .portCard:hover #pcMask, .portCard:hover #burgerMask, 
 .portCard:hover #scraperMask, .portCard:hover #spMask {
@@ -198,12 +215,6 @@ body {
 
 	.wrap {
 		min-height: 100%;
-	}
-
-	@media screen and (min-width: 1350px) {
-		#spMask {
-			font-size: 0.85rem;
-		}
 	}
 
 	@media screen and (min-height: 768px) {
